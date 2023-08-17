@@ -1,13 +1,18 @@
 import React from 'react';
 import MainCarosel from '../../components/HomeCarosel/MainCarosel';
+import HomeSectionCarosel from '../../components/HomeSectionCarosel/HomeSectionCarosel';
 
 const HomePage = () => {
     return (
     <div>
         <MainCarosel/>
 
-        <div>
-            
+        <div className='py-20 space-y-10 flex flex-col justify-center px-5 lg:px-10'>
+            <HomeSectionCarosel/>
+            <HomeSectionCarosel/>
+            <HomeSectionCarosel/>
+            <HomeSectionCarosel/>
+            <HomeSectionCarosel/>
         </div>
     </div>
     )
